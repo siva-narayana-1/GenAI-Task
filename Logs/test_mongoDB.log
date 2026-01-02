@@ -1,0 +1,13 @@
+2026-01-02 14:23:21,237 - INFO - <class 'NotImplementedError'> at 19 as Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2026-01-02 14:24:23,020 - INFO - Sucessfully collection checked..
+2026-01-02 14:24:23,032 - INFO - ['_id', 'name', 'age', 'department', 'cgpa', 'year', 'college']
+2026-01-02 14:25:17,048 - INFO - Sucessfully collection checked..
+2026-01-02 14:25:17,060 - INFO - {'_id': ObjectId('695774beba07caff31c4002b'), 'name': 'Ravi', 'age': 21, 'department': 'CSE', 'cgpa': 7.9, 'year': 3, 'college': 'MVR College'}
+2026-01-02 18:10:07,776 - INFO - Sucessfully collection checked..
+2026-01-02 18:10:07,777 - INFO - <pymongo.synchronous.cursor.Cursor object at 0x00000190530B2A40>
+2026-01-02 18:14:23,649 - INFO - Sucessfully collection checked..
+2026-01-02 18:14:23,677 - INFO - [{'_id': ObjectId('695774beba07caff31c4002a'), 'name': 'Siva', 'age': 22, 'department': 'AI&DS', 'cgpa': 8.6, 'year': 4, 'college': 'MVR College'}, {'_id': ObjectId('695774beba07caff31c4002b'), 'name': 'Ravi', 'age': 21, 'department': 'CSE', 'cgpa': 7.9, 'year': 3, 'college': 'MVR College'}, {'_id': ObjectId('695774beba07caff31c4002c'), 'name': 'Anjali', 'age': 22, 'department': 'AI&DS', 'cgpa': 9.1, 'year': 4, 'college': 'MVR College'}, {'_id': ObjectId('695774beba07caff31c4002d'), 'name': 'Kiran', 'age': 20, 'department': 'ECE', 'cgpa': 7.2, 'year': 2, 'college': 'MVR College'}, {'_id': ObjectId('695774beba07caff31c4002e'), 'name': 'Pooja', 'age': 21, 'department': 'CSE', 'cgpa': 8.4, 'year': 3, 'college': 'MVR College'}, {'_id': ObjectId('695774beba07caff31c4002f'), 'name': 'Arjun', 'age': 22, 'department': 'AI&DS', 'cgpa': 8.9, 'year': 4, 'college': 'MVR College'}]
+2026-01-02 18:15:18,806 - INFO - Sucessfully collection checked..
+2026-01-02 18:15:18,820 - INFO - {'_id': ObjectId('695774beba07caff31c4002d'), 'name': 'Kiran', 'age': 20, 'department': 'ECE', 'cgpa': 7.2, 'year': 2, 'college': 'MVR College'}
+2026-01-02 18:15:38,035 - INFO - Sucessfully collection checked..
+2026-01-02 18:15:38,049 - INFO - ['_id', 'name', 'age', 'department', 'cgpa', 'year', 'college']

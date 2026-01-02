@@ -1,0 +1,154 @@
+2026-01-02 17:16:09,046 - INFO - <class 'TypeError'> at 43 as unsupported operand type(s) for +: 'NoneType' and 'str'
+2026-01-02 17:17:21,168 - INFO - <class 'TypeError'> at 43 as unsupported operand type(s) for +: 'NoneType' and 'str'
+2026-01-02 17:19:02,539 - INFO - <class 'TypeError'> at 43 as unsupported operand type(s) for +: 'NoneType' and 'str'
+2026-01-02 17:20:33,790 - INFO - <class 'TypeError'> at 43 as unsupported operand type(s) for +: 'NoneType' and 'str'
+2026-01-02 17:21:56,236 - INFO - <class 'google.api_core.exceptions.NotFound'> at 43 as 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-02 17:25:12,505 - INFO - <class 'google.api_core.exceptions.NotFound'> at 43 as 404 models/gemini-flash-lates is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-02 17:26:41,672 - INFO - <class 'AttributeError'> at 44 as 'str' object has no attribute 'read'
+2026-01-02 17:28:02,815 - INFO - response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\n  \"year\": 3\n}"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 90,
+        "candidates_token_count": 10,
+        "total_token_count": 2031
+      },
+      "model_version": "gemini-3-flash-preview"
+    }),
+)
+2026-01-02 17:28:02,816 - INFO - <class 'AttributeError'> at 45 as 'str' object has no attribute 'read'
+2026-01-02 17:50:56,986 - INFO - response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\n  \"operation\": \"find\",\n  \"collection\": \"students\",\n  \"filter\": {\n    \"year\": 3\n  }\n}"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 158,
+        "candidates_token_count": 35,
+        "total_token_count": 472
+      },
+      "model_version": "gemini-3-flash-preview"
+    }),
+)
+2026-01-02 17:50:56,986 - INFO - <class 'AttributeError'> at 57 as 'str' object has no attribute 'read'
+2026-01-02 17:51:58,688 - INFO - response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\n  \"operation\": \"find\",\n  \"collection\": \"students\",\n  \"filter\": {\n    \"year\": 4\n  },\n  \"projection\": {\n    \"name\": 1,\n    \"_id\": 0\n  }\n}"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 164,
+        "candidates_token_count": 59,
+        "total_token_count": 715
+      },
+      "model_version": "gemini-3-flash-preview"
+    }),
+)
+2026-01-02 17:51:58,688 - INFO - <class 'AttributeError'> at 57 as 'str' object has no attribute 'read'
+2026-01-02 17:53:42,037 - INFO - response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\n  \"operation\": \"find\",\n  \"collection\": \"students\",\n  \"filter\": {\n    \"cgpa\": {\n      \"$gt\": 6.0\n    }\n  }\n}"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 164,
+        "candidates_token_count": 47,
+        "total_token_count": 577
+      },
+      "model_version": "gemini-3-flash-preview"
+    }),
+)
+2026-01-02 17:53:42,037 - INFO - <class 'AttributeError'> at 57 as 'str' object has no attribute 'read'
+2026-01-02 18:00:07,873 - INFO - response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "db.students.find({\"year\": 3})"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 139,
+        "candidates_token_count": 11,
+        "total_token_count": 530
+      },
+      "model_version": "gemini-3-flash-preview"
+    }),
+)
+2026-01-02 18:00:07,874 - INFO - <class 'AttributeError'> at 53 as 'str' object has no attribute 'read'
+2026-01-02 18:03:21,364 - INFO - <class 'TypeError'> at 52 as 'GenerateContentResponse' object is not subscriptable
+2026-01-02 18:04:09,799 - INFO - <class 'google.generativeai.types.generation_types.GenerateContentResponse'>
+2026-01-02 18:04:09,799 - INFO - <class 'TypeError'> at 53 as 'GenerateContentResponse' object is not subscriptable
+2026-01-02 18:05:17,853 - INFO - db.students.find({ year: 3 })
+2026-01-02 18:05:17,853 - INFO - <class 'TypeError'> at 53 as 'GenerateContentResponse' object is not subscriptable
+2026-01-02 18:06:38,849 - INFO - Response from model was : db.students.find({"year": 3})
+2026-01-02 18:07:02,077 - INFO - Response from model was : db.students.find({ "cgpa": { "$gt": 6.0 } })

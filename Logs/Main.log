@@ -1,0 +1,16 @@
+2026-01-02 17:17:21,169 - INFO - <class 'NameError'> at 13 as name 'Output' is not defined
+2026-01-02 17:19:02,540 - INFO - students of third year-->None
+2026-01-02 17:20:33,790 - INFO - students of third year-->None
+2026-01-02 17:21:56,237 - INFO - students of third year-->None
+2026-01-02 17:25:12,505 - INFO - students of third year-->None
+2026-01-02 17:26:41,673 - INFO - students of third year-->None
+2026-01-02 17:28:02,816 - INFO - students of third year-->None
+2026-01-02 17:50:56,987 - INFO - students of third year-->None
+2026-01-02 17:51:58,688 - INFO - student names only those who are pursuing 4 year-->None
+2026-01-02 17:53:42,037 - INFO - whose cgpa greather than 6.0-->None
+2026-01-02 18:00:07,874 - INFO - students of third year-->None
+2026-01-02 18:03:21,364 - INFO - students of third year-->None
+2026-01-02 18:04:09,800 - INFO - students of third year-->None
+2026-01-02 18:05:17,854 - INFO - students of third year-->None
+2026-01-02 18:06:38,850 - INFO - students of third year-->db.students.find({"year": 3})
+2026-01-02 18:07:02,078 - INFO - whose cgpa greather than 6.0-->db.students.find({ "cgpa": { "$gt": 6.0 } })
